@@ -1,4 +1,12 @@
-import { Image, ImageBackground, View, Dimensions, Text, TouchableOpacity, StyleSheet } from "react-native";
+import {
+  Image,
+  ImageBackground,
+  View,
+  Dimensions,
+  Text,
+  TouchableOpacity,
+  StyleSheet,
+} from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
@@ -24,7 +32,9 @@ export default function Index() {
 
           <View style={styles.buttonGroup}>
             <TouchableOpacity style={styles.button}>
-              <Text style={{ ...styles.textSmall, color: "black" }}>Join here</Text>
+              <Text style={{ ...styles.textSmall, color: "black" }}>
+                Join here
+              </Text>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.transparentButton}>
